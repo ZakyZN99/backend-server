@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "65f56d046ae2d56b8b7d6a3c"
+  },
+  "name": "CheeseBurger",
+  "description": "Burger with cheese xD",
+  "price": 50000,
+  "createdAt": {
+    "$date": "2024-03-16T09:57:24.782Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T09:57:24.782Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f574e9669921c1bde28521"
+  },
+  "name": "CheeseBurgers",
+  "description": "Burger with cheese xD",
+  "price": 50000,
+  "image_url": "02a864b32c9647793a7fb0e7c7afb85e.png",
+  "createdAt": {
+    "$date": "2024-03-16T10:31:05.060Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T10:31:05.060Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f575d5371378485bd1ada5"
+  },
+  "name": "CheeseBurgers",
+  "description": "Burger with cheese xD",
+  "price": 50000,
+  "image_url": "34c562c2a884539dd2b494cd9ade40b6.png",
+  "createdAt": {
+    "$date": "2024-03-16T10:35:01.713Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T10:35:01.713Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65f575e3371378485bd1ada7"
+  },
+  "name": "CheeseBurgers",
+  "description": "Burger with cheese xD",
+  "price": 111111,
+  "image_url": "5589f6cb8a8600285e9228a5b8e386c1.png",
+  "createdAt": {
+    "$date": "2024-03-16T10:35:15.038Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-16T10:35:15.038Z"
+  },
+  "__v": 0
+}]
