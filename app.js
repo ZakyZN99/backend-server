@@ -6,6 +6,7 @@ var logger = require('morgan');
 const cors = require('cors');
 const productRoute = require('./app/product/router');
 const categoriesRoute = require('./app/category/router');
+const tagRoute = require('./app/tag/router');
 
 var app = express();
 
@@ -15,13 +16,14 @@ app.set('view engine', 'pug');
 
 app.use(cors());
 app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.json()); 
+app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/api', productRoute)
-app.use('/api', categoriesRoute)
+app.use('/api', productRoute);
+app.use('/api', categoriesRoute);
+app.use('/api', tagRoute);
 //home
 app.use('/', function(req, res){
   res.render('index', {
@@ -44,5 +46,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
 
 module.exports = app;
