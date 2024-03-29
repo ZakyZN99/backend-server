@@ -67,9 +67,9 @@ const logout = async (req, res, next) => {
     let user = await User.findOneAndUpdate({token: {$in: [token]}}, {$pull: {token: token}}, {useFindAndModify: false});
 
     if(!token || !user) {
-        res.json({
+        return res.status(404).json({
             error: 1,
-            message: 'User Not Found!!!'
+            message: 'User not found or already logged out'
         });
     }
 

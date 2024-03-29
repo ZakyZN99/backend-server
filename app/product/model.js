@@ -27,6 +27,10 @@ const productSchema = Schema({
         type: Schema.Types.ObjectId,
         ref: 'Tag'
     },
+    user: {
+        type: Schema.Types.ObjectId,
+        ref: 'User'
+    },
 }, {timestamps: true }
 );
 
