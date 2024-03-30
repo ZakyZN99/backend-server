@@ -33,13 +33,14 @@ const {Types} = require('mongoose');
             
             let orderItems = await OrderItem.insertMany(items.map(item => ({
                 ...item,
-                name: item.product.name,
+                name: item.name,
                 qty: parseInt(item.qty),
-                price: parseInt(item.product.price),
+                price: parseInt(item.price),
                 order: order._id,
                 product: item.product._id
             })));
-            orderItems.forEach(item => {order.order_items.push(item)});
+            orderItems.forEach(item =>
+                order.order_item.push(item));
             order.save();
             await CartItem.deleteMany({user: req.user._id});
             return res.json(order);
@@ -62,7 +63,6 @@ const index = async (req, res, next) => {
         let order = await Order.find({user: req.user._id})
         .skip(parseInt(skip))
         .limit(parseInt(limit))
-        .populate('order_name')
         .sort('-createdAt');
 
         return res.json({

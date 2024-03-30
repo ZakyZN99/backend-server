@@ -164,12 +164,12 @@
 					"urlencoded": [
 						{
 							"key": "fullName",
-							"value": "Zaky",
+							"value": "test",
 							"type": "text"
 						},
 						{
 							"key": "email",
-							"value": "zaky123@gmail.com",
+							"value": "test@gmail.com",
 							"type": "text"
 						},
 						{
@@ -208,7 +208,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZmZWQ0Y2M0MmRiYTQxNGE0NzU3NmEiLCJmdWxsTmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJ0b2tlbiI6W10sImNyZWF0ZWRBdCI6IjIwMjQtMDMtMjRUMDk6MDc6MjQuMzY0WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDMtMjRUMDk6MDc6MjQuMzY0WiIsImN1c3RvbWVySWQiOjIsIl9fdiI6MCwiaWF0IjoxNzExMjcxNjU3fQ.padxIXIw9QdppvWU413LAYvhtiIyyBn-8g9Ne5DOang",
 							"type": "string"
 						}
 					]
@@ -304,7 +304,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZiZjM1NjM5ODdkZDJhYzQ5YmViYTIiLCJmdWxsTmFtZSI6Ilpha3kiLCJlbWFpbCI6Inpha3kxMjNAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJ0b2tlbiI6W10sImNyZWF0ZWRBdCI6IjIwMjQtMDMtMjFUMDg6NDQ6MDYuMzQxWiIsInVwZGF0ZWRBdCI6IjIwMjQtMDMtMjFUMDk6MjY6MzYuNzQ3WiIsImN1c3RvbWVySWQiOjEsIl9fdiI6MCwiaWF0IjoxNzExMDE5NTEzfQ.AjWK5bmUJXPMgugtVvT9t9ttH6phRDVfFxY_AUF2CIM",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZiZjM1NjM5ODdkZDJhYzQ5YmViYTIiLCJmdWxsTmFtZSI6Ilpha3kiLCJlbWFpbCI6Inpha3kxMjNAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJ0b2tlbiI6W10sImNyZWF0ZWRBdCI6IjIwMjQtMDMtMjFUMDg6NDQ6MDYuMzQxWiIsInVwZGF0ZWRBdCI6IjIwMjQtMDMtMjNUMTI6NTQ6MzMuOTg3WiIsImN1c3RvbWVySWQiOjEsIl9fdiI6MCwiaWF0IjoxNzExMTk4NDg0fQ.1r30j1EwUnmOE6onyu5fVZMerAZzl63CvbGlt5lESZ4",
 							"type": "string"
 						}
 					]
@@ -441,7 +441,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZmZWQ0Y2M0MmRiYTQxNGE0NzU3NmEiLCJmdWxsTmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJ0b2tlbiI6W10sImNyZWF0ZWRBdCI6IjIwMjQtMDMtMjRUMDk6MDc6MjQuMzY0WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDMtMjRUMDk6MDc6MjQuMzY0WiIsImN1c3RvbWVySWQiOjIsIl9fdiI6MCwiaWF0IjoxNzExMjcxNjU3fQ.padxIXIw9QdppvWU413LAYvhtiIyyBn-8g9Ne5DOang",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZmZWQ0Y2M0MmRiYTQxNGE0NzU3NmEiLCJmdWxsTmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJ0b2tlbiI6WyJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKZmFXUWlPaUkyTldabVpXUTBZMk0wTW1SaVlUUXhOR0UwTnpVM05tRWlMQ0ptZFd4c1RtRnRaU0k2SW5SbGMzUWlMQ0psYldGcGJDSTZJblJsYzNSQVoyMWhhV3d1WTI5dElpd2ljbTlzWlNJNkluVnpaWElpTENKMGIydGxiaUk2VzEwc0ltTnlaV0YwWldSQmRDSTZJakl3TWpRdE1ETXRNalJVTURrNk1EYzZNalF1TXpZMFdpSXNJblZ3WkdGMFpXUkJkQ0k2SWpJd01qUXRNRE10TWpSVU1EazZNRGM2TWpRdU16WTBXaUlzSW1OMWMzUnZiV1Z5U1dRaU9qSXNJbDlmZGlJNk1Dd2lhV0YwSWpveE56RXhNamN4TmpVM2ZRLnBhZHhJWEl3OVFkcHB2V1U0MTNMQVl2aHRpSXl5Qm4tOGc5TmU1RE9hbmciXSwiY3JlYXRlZEF0IjoiMjAyNC0wMy0yNFQwOTowNzoyNC4zNjRaIiwidXBkYXRlZEF0IjoiMjAyNC0wMy0yNFQwOToxNDoxNy45MjVaIiwiY3VzdG9tZXJJZCI6MiwiX192IjowLCJpYXQiOjE3MTE2Nzc4Mzh9.bxMGYgmEWqypfQerslmR5FTMG5S9nQdgVsB7TX_TXpI",
 							"type": "string"
 						}
 					]
@@ -450,7 +450,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"status\": \"waiting_payment\",\r\n  \"delivery_fee\": 10000,\r\n  \"delivery_address\": \"65ffef040d4a631d2c8384bf\",// Replace with actual user ID\r\n  \"order_item\": [\"65f575d5371378485bd1ada5\", \"66062345bce66602bce25840\"] // Replace with actual order item IDs\r\n}",
+					"raw": "{\r\n  \"delivery_fee\": 10000,\r\n  \"delivery_address\": \"65ffef040d4a631d2c8384bf\"// Replace with actual user ID\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
