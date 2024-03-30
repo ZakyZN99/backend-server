@@ -435,6 +435,9 @@
 		},
 		{
 			"name": "Order",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"auth": {
 					"type": "bearer",
@@ -446,7 +449,7 @@
 						}
 					]
 				},
-				"method": "POST",
+				"method": "GET",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -467,6 +470,37 @@
 					"path": [
 						"api",
 						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "invoice",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWZmZWQ0Y2M0MmRiYTQxNGE0NzU3NmEiLCJmdWxsTmFtZSI6InRlc3QiLCJlbWFpbCI6InRlc3RAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJ0b2tlbiI6W10sImNyZWF0ZWRBdCI6IjIwMjQtMDMtMjRUMDk6MDc6MjQuMzY0WiIsInVwZGF0ZWRBdCI6IjIwMjQtMDMtMjRUMDk6MDc6MjQuMzY0WiIsImN1c3RvbWVySWQiOjIsIl9fdiI6MCwiaWF0IjoxNzExMjcxNjU3fQ.padxIXIw9QdppvWU413LAYvhtiIyyBn-8g9Ne5DOang",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/invoice/66079249f45c6fc177498369",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"invoice",
+						"66079249f45c6fc177498369"
 					]
 				}
 			},
